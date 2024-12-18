@@ -1,8 +1,3 @@
-:root {
-    --one: #2877ff;
-    --two: #ff6d12;
-}
-
 html,
 body {
     height: 100vh;
@@ -746,15 +741,28 @@ h6 {
 
 
 /* PROJECT SPECIFIC */
+:root {
+    --one: #ffefae;
+    --two: #ffefae;
+}
+
+.body {
+    background-color: var(--one);
+}
 
 .home {
     padding: 1.5rem;
+    background-color: #bb7125;
 }
 
-.header-cont {
+.header {
     width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
+    background-color: var(--two);
+}
+
+.header {
+    font-size: 40px;
 }
 
 .menu-item {
