@@ -742,33 +742,104 @@ h6 {
 
 /* PROJECT SPECIFIC */
 :root {
-    --one: #ffefae;
-    --two: #ffefae;
-}
-
-.body {
-    background-color: var(--one);
-}
-
-.home {
-    padding: 1.5rem;
-    background-color: #bb7125;
+    --one: #a62c37;
+    --two: #ebd3a2;
+    --yellow: #f8ed43;
+    --lake: #6d4145;
+    
 }
 
 .header {
     width: 100%;
+    box-sizing: border-box;
     padding: 20px;
-    background-color: var(--two);
+    padding-bottom: 60px;
+    font-size: 28px;
 }
 
-.header {
-    font-size: 40px;
+.nav-item {
+    padding-left: 1.25rem;
+    box-sizing: border-box;
+}
+
+.dropdown {
+    overflow: hidden;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 154px;
+    background-color: var(--two);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding-top: 14px;
+    padding-left: 14px;
+    padding-right: 28px;
+    padding-bottom: 14px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: var(--yellow);
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 .menu-item {
     text-decoration: none;
     color: black;
 }
+
+.footer {
+    background-color: #6d4145;
+}
+
+
+
+/* PAGES */
+
+.home {
+    padding: 20px; 
+}
+
+h1,h2 {
+    font-weight: normal;
+    margin: 0;
+    margin-bottom: 0.25rem;
+}
+
+h1,h4 {
+    margin-bottom: 1rem;
+}
+
+.page {
+    padding-top: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 60px;
+    
+}
+
+.page p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.prices {
+    margin-top: 1rem;
+    margin-left: .5rem;
+}
+
+
+
 
 .email-button {
     box-sizing: border-box;
