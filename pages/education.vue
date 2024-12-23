@@ -2,14 +2,14 @@
     <div class="page">
         <div class="flex-col">
             <div class="flex-row mb7">
-                <div class="w-50">
+                <div class="web-50">
                     <h2>UCR</h2>
                     <h4>January 2025 - December 2028</h4>
                     <p>Incoming Freshman</p>
                 </div>
             </div>
             <div class="flex-row mb7">
-                <div class="w-50">
+                <div class="web-50">
                     <h2>Ferrandi: Intesive Bread Course</h2>
                     <h4>January 2023 - May 2023</h4>
                     <p>Enrolling in Ferrandi Paris’s three-month intensive bread-making course was a transformative
@@ -32,12 +32,12 @@
                         people together. This journey honed my craft and inspired me to approach baking with curiosity,
                         care, and a lifelong dedication to quality.</p>
                 </div>
-                <div class="w-50">
+                <div class="web-50">
                     <img src="" alt="">
                 </div>
             </div>
             <div class="flex-row mb7">
-                <div class="w-50">
+                <div class="web-50">
                     <h2>American School of Paris</h2>
                     <h4>September 2020 - December 2023</h4>
                     <p>American Highschool in Paris</p>

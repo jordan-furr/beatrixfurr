@@ -2,9 +2,13 @@
     <div class="header">
         <div class="flex-row space-between align-center">
             <!--<p>&#127281;&#127284;&#127280;&#127299;&#127297;&#127288;&#127303;</p>-->
-            <nuxt-link to="/" class="menu-item" exact-active-class="active">
+            <nuxt-link to="/" class="menu-item">
                 <p>Beatrix Furr</p>
             </nuxt-link>
+            <div class="mobile-menu">
+                <menu-icon :isOpen="isMenuVisible" @toggle-menu="toggleMenu" />
+                <mobile-menu :isVisible="isMenuVisible" @toggle-menu="toggleMenu" />
+            </div>
             <div class="flex-row menu-nav">
                 <div class="nav-item">
                     <nuxt-link to="/education" class="menu-item" exact-active-class="active">
@@ -55,3 +59,21 @@
         </div>
     </div>
 </template>
+
+<script>
+import mobileMenu from './mobile-menu.vue';
+import menuIcon from './menu-icon.vue';
+export default {
+    components: { mobileMenu, menuIcon },
+    data() {
+        return {
+            isMenuVisible: false
+        }
+    },
+    methods: {
+        toggleMenu() {
+            this.isMenuVisible = !this.isMenuVisible;
+        }
+    }
+}
+</script>

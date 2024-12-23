@@ -2,7 +2,7 @@
     <div class="page">
         <div class="flex-col">
             <div class="flex-row mb7">
-                <div class="w-50">
+                <div class="web-50">
                     <h2>HolyBelly: Crafting Memorable Experience</h2>
                     <h4>September 2024 - December 2024</h4>
                     <p>HolyBelly, located in the vibrant 10th Arrondissement, offered a contrasting yet equally
@@ -24,13 +24,13 @@
                         to care not only shaped its offerings but also left a lasting impact on me, reminding me of the
                         power of intention in service and connection.</p>
                 </div>
-                <div class="w-50">
+                <div class="web-50">
                     <img src="" alt="">
                 </div>
 
             </div>
             <div class="flex-row mb7">
-                <div class="w-50">
+                <div class="web-50">
                     <h2>P1 Bakery: Bread and Pastry</h2>
                     <h4>May 2024 - July 2024</h4>
                     <p>At P1 Bakery, nestled in the heart of Montmartre, I immersed myself in the meticulous craft of
@@ -50,7 +50,7 @@
                         connection to community. This role taught me discipline, resilience, and a hands-on approach to
                         creating something tangible that brings joy to others.</p>
                 </div>
-                <div class="w-50">
+                <div class="web-50">
                     <img src="" alt="">
                 </div>
             </div>
