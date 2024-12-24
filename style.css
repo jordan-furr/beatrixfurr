@@ -749,8 +749,22 @@ h6 {
     --one: #a62c37;
     --two: #ebd3a2;
     --yellow: #f8ed43;
-    --lake: #6d4145;
+    --lake: #006eb8;
+    --glacier: #97acc8;
+    --darkblue: #12354e;
+    --vibeblue: #005b8d;
+    --blue: #1c4286;
+    --pink: #f9c1ce;
     
+    
+}
+
+.tan {
+    color: var(--two);
+}
+
+.pink {
+    color: var(--pink);
 }
 
 .header {
@@ -774,7 +788,7 @@ h6 {
     display: none;
     position: absolute;
     width: 154px;
-    background-color: var(--two);
+    background-color: var(--lake);
     z-index: 1;
 }
 
@@ -790,7 +804,7 @@ h6 {
 }
 
 .dropdown-content a:hover {
-    background-color: var(--yellow);
+    background-color: var(--pink);
     color: white;
 }
 
@@ -798,10 +812,11 @@ h6 {
     display: block;
 }
 
-.menu-item {
+.menu-item,.logo {
     text-decoration: none;
     color: black;
 }
+
 
 .menu-icon {
     font-size: 42px;
@@ -812,13 +827,14 @@ h6 {
     z-index: 1000;
     color: var(--lake);
     padding-bottom: 2px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .menu-overlay .logo {
     position: absolute;
     left: 20px;
     top: 20px;
+    color: white;
 }
 
 .menu-overlay {
@@ -827,7 +843,7 @@ h6 {
     left: 0;
     width: 100%;
     height: 100%;
-    background: var(--two);
+    background: var(--lake);
     color: white;
     display: flex;
     z-index: 999;
@@ -844,13 +860,22 @@ h6 {
 }
 
 .menu-overlay nav ul li {
-    margin-bottom: 1rem;
+    margin-bottom: 1.25rem;
 }
 
 .menu-overlay nav ul li a {
     text-decoration: none;
     color: white;
     font-size: 36px;
+}
+
+.menu-overlay nav ul li a:hover {
+    color: white;
+}
+
+.active .dropdown-content p {
+    text-decoration: none;
+    color: white;
 }
 
 .active p {
@@ -863,6 +888,7 @@ h6 {
 
 .mobile-menu .active p {
     text-decoration: none;
+    color: pink;
 }
 
 .mobile-menu .menu-item:hover {
@@ -884,26 +910,31 @@ h6 {
     padding: 20px; 
 }
 
-h1,h2 {
+h2 {
     font-weight: normal;
     margin: 0;
-    margin-bottom: 0.25rem;
+    margin-bottom: 1.5rem;
+    font-size: 32px;
 }
 
-h1,h4 {
-    margin-bottom: 1rem;
+h4 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--lake);
+    margin-bottom: .75rem;
 }
 
 .page {
-    padding-top: 60px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
     padding-bottom: 60px;
-    
 }
 
 .page p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
 }
 
 .prices {
@@ -921,6 +952,10 @@ h1,h4 {
     font-weight: bold;
 }
 
+.page .item {
+    padding-top: 1.5rem;
+    border-top: solid 2px var(--pink);
+}
 
 
 @media (max-width: 879px) {
@@ -930,7 +965,9 @@ h1,h4 {
     .page {
         padding: 20px;
         padding-bottom: 40px;
-        
+    }
+    .header {
+        padding: 20px;
     }
 }
 
@@ -946,7 +983,7 @@ h1,h4 {
         flex-direction: row;
         text-align: center;
     }
-    .item {
+    .home .item {
         width: 49%;
         box-sizing: border-box;
     }

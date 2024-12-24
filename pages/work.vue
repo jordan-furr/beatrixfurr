@@ -1,7 +1,11 @@
 <template>
     <div class="page">
         <div class="flex-col">
-            <div class="flex-row mb7">
+            <div class="mb5">
+                <p>Work Experience
+                </p>
+            </div>
+            <div class="flex-row mb7 item">
                 <div class="web-50">
                     <h2>HolyBelly: Crafting Memorable Experience</h2>
                     <h4>September 2024 - December 2024</h4>
@@ -29,7 +33,7 @@
                 </div>
 
             </div>
-            <div class="flex-row mb7">
+            <div class="flex-row mb7 item">
                 <div class="web-50">
                     <h2>P1 Bakery: Bread and Pastry</h2>
                     <h4>May 2024 - July 2024</h4>

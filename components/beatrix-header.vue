@@ -2,7 +2,7 @@
     <div class="header">
         <div class="flex-row space-between align-center">
             <!--<p>&#127281;&#127284;&#127280;&#127299;&#127297;&#127288;&#127303;</p>-->
-            <nuxt-link to="/" class="menu-item">
+            <nuxt-link to="/" class="logo">
                 <p>Beatrix Furr</p>
             </nuxt-link>
             <div class="mobile-menu">
@@ -20,13 +20,13 @@
                         <div class="">
                             <p class="mb1">Work</p>
                             <div class="dropdown-content">
-                                <nuxt-link to="/work" exact-active-class="active">
+                                <nuxt-link to="/work">
                                     <p>HolyBelly</p>
                                 </nuxt-link>
-                                <nuxt-link to="/work" exact-active-class="active">
+                                <nuxt-link to="/work">
                                     <p>P1 Bakery</p>
                                 </nuxt-link>
-                                <nuxt-link to="/work" exact-active-class="active">
+                                <nuxt-link to="/work">
                                     <p>Ferrandi</p>
                                 </nuxt-link>
                             </div>
@@ -38,7 +38,7 @@
                         <div class="dropdown">
                             <p class="mb1">Originals</p>
                             <div class="dropdown-content">
-                                <nuxt-link to="/originals" exact-active-class="active">
+                                <nuxt-link to="/originals">
                                     <p>Picasso Cookie</p>
                                 </nuxt-link>
                             </div>
