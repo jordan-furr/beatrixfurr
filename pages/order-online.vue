@@ -1,13 +1,12 @@
 <template>
     <div class="page">
         <div class="flex-col">
-            <div class="mb9">
-                <h1>Order Online</h1>
+            <div class="mb5">
                 <p>I accept orders for a variety of cookies described below. Please reach me at beatrixfurr@gmail.com
                 </p>
             </div>
             <div class="flex-col">
-                <div class="mb5">
+                <div class="mb7 item">
                     <h2>Chocolate Chip</h2>
                     <p>The best Chocolate Chip Cookie you've ever had.</p>
                     <div class="prices">
@@ -18,7 +17,7 @@
                     </div>
 
                 </div>
-                <div class="mb5">
+                <div class="mb7 item">
                     <h2>Picasso Cookie</h2>
                     <p>Chocolate Chip Cookie made like a kitchen sink cookie but more interesting. Additions of
                         pretzels, m&ms, chips.</p>
